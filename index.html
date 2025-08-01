@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Domine N8N e Automação - Aposte no Lucro</title>
-    <meta name="description" content="Acesso a +2000 workflows N8N e +3500 prompts de IA. Saia do básico e vire profissional em automação.">
+    <title>Transforme Seu Negócio com Automação Avançada - Caroline Moliterno</title>
+    <meta name="description" content="Pacote completo de automação para microempreendedores e iniciantes. Automatize processos complexos de forma simples e sem complicação.">
     
     <!-- Open Graph -->
-    <meta property="og:title" content="Domine N8N e Automação - Aposte no Lucro">
-    <meta property="og:description" content="Acesso a +2000 workflows N8N e +3500 prompts de IA. Saia do básico e vire profissional em automação.">
+    <meta property="og:title" content="Transforme Seu Negócio com Automação Avançada">
+    <meta property="og:description" content="Pacote completo de automação para microempreendedores e iniciantes. Automatize processos complexos de forma simples e sem complicação.">
     <meta property="og:type" content="website">
     
     <!-- Favicon -->
@@ -29,17 +29,20 @@
         }
         
         .container {
-            max-width: 800px;
+            max-width: 1200px;
             margin: 0 auto;
             padding: 0 20px;
         }
         
         /* Header Hero */
         .hero {
-            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            background: linear-gradient(135deg, rgba(52, 152, 219, 0.9) 0%, rgba(46, 204, 113, 0.9) 100%), 
+                        url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600"><rect width="1200" height="600" fill="%23f8f9fa"/><g fill="%233498db" opacity="0.1"><circle cx="200" cy="150" r="80"/><circle cx="800" cy="200" r="60"/><circle cx="1000" cy="400" r="100"/><rect x="300" y="300" width="200" height="150" rx="10"/><rect x="600" y="100" width="150" height="100" rx="8"/></g></svg>');
+            background-size: cover;
+            background-position: center;
             color: white;
             text-align: center;
-            padding: 60px 20px;
+            padding: 100px 20px;
             position: relative;
             overflow: hidden;
         }
@@ -58,697 +61,496 @@
         .hero-content {
             position: relative;
             z-index: 2;
-        }
-        
-        .hero-badge {
-            background: #ff4757;
-            color: white;
-            padding: 12px 24px;
-            border-radius: 25px;
-            font-weight: bold;
-            font-size: 14px;
-            display: inline-block;
-            margin-bottom: 30px;
-            text-transform: uppercase;
-            letter-spacing: 1px;
+            max-width: 800px;
+            margin: 0 auto;
         }
         
         .hero h1 {
-            font-size: 3.5rem;
+            font-size: 3.2rem;
             font-weight: 900;
-            margin-bottom: 20px;
-            line-height: 1.1;
-        }
-        
-        .hero h1 .highlight {
-            color: #00ff88;
+            margin-bottom: 30px;
+            line-height: 1.2;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
         }
         
         .hero .subtitle {
-            font-size: 1.3rem;
-            margin-bottom: 15px;
-            opacity: 0.9;
-        }
-        
-        .hero .description {
-            font-size: 1.1rem;
+            font-size: 1.4rem;
             margin-bottom: 40px;
-            opacity: 0.8;
+            opacity: 0.95;
+            font-weight: 300;
             max-width: 600px;
             margin-left: auto;
             margin-right: auto;
         }
         
         .cta-button {
-            background: linear-gradient(45deg, #00ff88, #00cc6a);
+            background: linear-gradient(45deg, #e74c3c, #f39c12);
             color: white;
             padding: 20px 40px;
             border: none;
             border-radius: 50px;
             font-size: 1.2rem;
             font-weight: bold;
-            cursor: pointer;
             text-decoration: none;
             display: inline-block;
             transition: all 0.3s ease;
-            box-shadow: 0 10px 30px rgba(0, 255, 136, 0.3);
+            box-shadow: 0 10px 30px rgba(231, 76, 60, 0.3);
             text-transform: uppercase;
             letter-spacing: 1px;
         }
         
         .cta-button:hover {
             transform: translateY(-3px);
-            box-shadow: 0 15px 40px rgba(0, 255, 136, 0.4);
+            box-shadow: 0 15px 40px rgba(231, 76, 60, 0.4);
         }
         
-        /* Problems Section */
-        .problems {
+        /* What's Included Section */
+        .whats-included {
             background: white;
             padding: 80px 20px;
+            text-align: center;
         }
         
-        .problems h2 {
-            text-align: center;
+        .whats-included h2 {
             font-size: 2.5rem;
+            color: #2c3e50;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+        
+        .whats-included .subtitle {
+            font-size: 1.2rem;
+            color: #7f8c8d;
             margin-bottom: 60px;
-            color: #2c3e50;
-        }
-        
-        .problem-item {
-            background: #fff5f5;
-            border-left: 5px solid #ff4757;
-            padding: 25px;
-            margin-bottom: 20px;
-            border-radius: 10px;
-            display: flex;
-            align-items: center;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-        }
-        
-        .problem-icon {
-            background: #ff4757;
-            color: white;
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-right: 20px;
-            font-size: 1.5rem;
-            flex-shrink: 0;
-        }
-        
-        .problem-text {
-            font-size: 1.1rem;
-            font-weight: 600;
-            color: #2c3e50;
-        }
-        
-        /* Transition */
-        .transition {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            text-align: center;
-            padding: 60px 20px;
-        }
-        
-        .transition h2 {
-            font-size: 2.5rem;
-            margin-bottom: 20px;
-        }
-        
-        /* About Section */
-        .about {
-            background: white;
-            padding: 80px 20px;
-            text-align: center;
-        }
-        
-        .about h2 {
-            font-size: 2.5rem;
-            margin-bottom: 30px;
-            color: #2c3e50;
-        }
-        
-        .about-content {
             max-width: 600px;
-            margin: 0 auto;
-            font-size: 1.1rem;
-            line-height: 1.8;
-            color: #555;
+            margin-left: auto;
+            margin-right: auto;
         }
         
-        .highlight-box {
-            background: linear-gradient(135deg, #00ff88, #00cc6a);
-            color: white;
-            padding: 30px;
-            border-radius: 15px;
-            margin: 40px 0;
-            font-size: 1.3rem;
-            font-weight: bold;
-            text-align: center;
-        }
-        
-        /* Benefits Section */
-        .benefits {
-            background: #f8f9fa;
-            padding: 80px 20px;
-        }
-        
-        .benefits h2 {
-            text-align: center;
-            font-size: 2.5rem;
-            margin-bottom: 60px;
-            color: #2c3e50;
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+            margin-top: 50px;
         }
         
         .benefit-item {
-            background: white;
-            padding: 30px;
-            margin-bottom: 20px;
+            background: #f8f9fa;
+            padding: 40px 30px;
             border-radius: 15px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-            border-left: 5px solid #00ff88;
+            text-align: left;
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+        }
+        
+        .benefit-item:hover {
+            transform: translateY(-5px);
+            border-color: #3498db;
+            box-shadow: 0 15px 40px rgba(52, 152, 219, 0.1);
         }
         
         .benefit-item h3 {
             color: #2c3e50;
-            margin-bottom: 15px;
             font-size: 1.3rem;
+            margin-bottom: 15px;
+            font-weight: 600;
         }
         
         .benefit-item p {
-            color: #666;
+            color: #7f8c8d;
             line-height: 1.6;
         }
         
-        /* What You Get */
-        .what-you-get {
-            background: white;
-            padding: 80px 20px;
-            text-align: center;
-        }
-        
-        .what-you-get h2 {
-            font-size: 2.5rem;
-            margin-bottom: 60px;
-            color: #2c3e50;
-        }
-        
-        .package-item {
-            background: #f8f9fa;
-            padding: 25px;
-            margin-bottom: 15px;
-            border-radius: 10px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            border-left: 5px solid #00ff88;
-        }
-        
-        .package-item .item-name {
-            font-weight: bold;
-            color: #2c3e50;
-        }
-        
-        .package-item .item-value {
-            color: #00ff88;
-            font-weight: bold;
-        }
-        
-        /* Pricing */
-        .pricing {
-            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+        /* Testimonials */
+        .testimonials {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             color: white;
             padding: 80px 20px;
             text-align: center;
         }
         
-        .pricing h2 {
+        .testimonials h2 {
             font-size: 2.5rem;
-            margin-bottom: 40px;
+            margin-bottom: 60px;
+            font-weight: 700;
         }
         
-        .price-comparison {
+        .testimonials-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 30px;
-            margin-bottom: 50px;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 40px;
+            margin-top: 50px;
         }
         
-        .price-item {
-            background: rgba(255,255,255,0.1);
-            padding: 30px;
-            border-radius: 15px;
-            backdrop-filter: blur(10px);
-        }
-        
-        .price-item h3 {
-            margin-bottom: 15px;
-            color: #00ff88;
-        }
-        
-        .price-item .price {
-            font-size: 2rem;
-            font-weight: bold;
-            margin-bottom: 10px;
-        }
-        
-        .final-price {
-            background: linear-gradient(45deg, #ff4757, #ff3742);
+        .testimonial-item {
+            background: rgba(255, 255, 255, 0.1);
             padding: 40px;
             border-radius: 20px;
-            margin: 40px 0;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
         }
         
-        .final-price .old-price {
-            text-decoration: line-through;
-            opacity: 0.7;
-            font-size: 1.5rem;
+        .testimonial-item p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            font-style: italic;
         }
         
-        .final-price .new-price {
+        .testimonial-author {
+            font-weight: bold;
+            color: #ffd700;
+        }
+        
+        /* Main Offer */
+        .main-offer {
+            background: white;
+            padding: 80px 20px;
+            text-align: center;
+        }
+        
+        .main-offer h2 {
+            font-size: 2.8rem;
+            color: #2c3e50;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+        
+        .main-offer .subtitle {
+            font-size: 1.3rem;
+            color: #7f8c8d;
+            margin-bottom: 50px;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .offer-box {
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            padding: 60px 40px;
+            border-radius: 20px;
+            max-width: 600px;
+            margin: 0 auto 40px;
+            border: 3px solid #3498db;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .offer-box::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: linear-gradient(45deg, transparent, rgba(52, 152, 219, 0.1), transparent);
+            transform: rotate(45deg);
+            animation: shine 3s infinite;
+        }
+        
+        @keyframes shine {
+            0% { transform: translateX(-100%) translateY(-100%) rotate(45deg); }
+            100% { transform: translateX(100%) translateY(100%) rotate(45deg); }
+        }
+        
+        .price-section {
+            position: relative;
+            z-index: 2;
+        }
+        
+        .price {
             font-size: 3rem;
+            color: #e74c3c;
             font-weight: 900;
             margin: 20px 0;
         }
         
-        /* Guarantee */
-        .guarantee {
-            background: white;
-            padding: 60px 20px;
+        .price-description {
+            color: #7f8c8d;
+            font-size: 1.1rem;
+            margin-bottom: 30px;
+        }
+        
+        /* Mentoria Upsell */
+        .mentoria-upsell {
+            background: linear-gradient(135deg, #ff7675 0%, #fd79a8 100%);
+            color: white;
+            padding: 80px 20px;
             text-align: center;
         }
         
-        .guarantee-box {
-            background: #e8f5e8;
-            border: 3px solid #00ff88;
-            padding: 40px;
+        .mentoria-upsell h2 {
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+            font-weight: 700;
+        }
+        
+        .mentoria-box {
+            background: rgba(255, 255, 255, 0.15);
+            padding: 50px 40px;
             border-radius: 20px;
-            max-width: 600px;
+            backdrop-filter: blur(10px);
+            max-width: 700px;
             margin: 0 auto;
+            border: 2px solid rgba(255, 255, 255, 0.3);
         }
         
-        .guarantee h3 {
-            color: #2c3e50;
+        .mentoria-box h3 {
+            color: #ffd700;
+            font-size: 1.8rem;
             margin-bottom: 20px;
-            font-size: 1.5rem;
         }
         
-        .guarantee p {
-            color: #555;
+        .mentoria-box p {
+            font-size: 1.2rem;
             line-height: 1.6;
+            margin-bottom: 30px;
+        }
+        
+        .mentoria-price {
+            font-size: 2rem;
+            color: #ffd700;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+        
+        .cta-button-secondary {
+            background: linear-gradient(45deg, #ffd700, #ffed4e);
+            color: #333;
+            padding: 20px 40px;
+            border: none;
+            border-radius: 50px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            text-decoration: none;
+            display: inline-block;
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 30px rgba(255, 215, 0, 0.3);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .cta-button-secondary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 40px rgba(255, 215, 0, 0.4);
         }
         
         /* Final CTA */
         .final-cta {
-            background: linear-gradient(135deg, #ff4757 0%, #ff3742 100%);
+            background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
             color: white;
             padding: 80px 20px;
             text-align: center;
         }
         
         .final-cta h2 {
-            font-size: 2.5rem;
-            margin-bottom: 30px;
-        }
-        
-        .choices {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 30px;
-            margin: 50px 0;
-        }
-        
-        .choice {
-            background: rgba(255,255,255,0.1);
-            padding: 30px;
-            border-radius: 15px;
-            backdrop-filter: blur(10px);
-        }
-        
-        .choice h3 {
+            font-size: 2.8rem;
             margin-bottom: 20px;
-            color: #ffd700;
+            font-weight: 700;
+        }
+        
+        .final-cta .subtitle {
+            font-size: 1.3rem;
+            margin-bottom: 40px;
+            opacity: 0.9;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
         }
         
         /* Responsive */
         @media (max-width: 768px) {
             .hero h1 {
-                font-size: 2.5rem;
+                font-size: 2.2rem;
             }
             
             .hero .subtitle {
                 font-size: 1.1rem;
             }
             
+            .benefits-grid {
+                grid-template-columns: 1fr;
+                gap: 30px;
+            }
+            
+            .testimonials-grid {
+                grid-template-columns: 1fr;
+                gap: 30px;
+            }
+            
+            .main-offer h2 {
+                font-size: 2.2rem;
+            }
+            
+            .price {
+                font-size: 2.5rem;
+            }
+            
             .cta-button {
-                padding: 15px 30px;
-                font-size: 1rem;
-            }
-            
-            .problems h2,
-            .benefits h2,
-            .what-you-get h2,
-            .pricing h2 {
-                font-size: 2rem;
-            }
-            
-            .problem-item,
-            .benefit-item {
-                padding: 20px;
-            }
-            
-            .package-item {
-                flex-direction: column;
-                text-align: center;
-                gap: 10px;
+                padding: 18px 35px;
+                font-size: 1.1rem;
             }
         }
         
         /* Animations */
+        .fade-in {
+            opacity: 0;
+            transform: translateY(30px);
+            animation: fadeInUp 0.8s ease forwards;
+        }
+        
         @keyframes fadeInUp {
-            from {
-                opacity: 0;
-                transform: translateY(30px);
-            }
             to {
                 opacity: 1;
                 transform: translateY(0);
             }
         }
         
-        .fade-in {
-            animation: fadeInUp 0.6s ease-out;
-        }
-        
         /* Sticky CTA */
         .sticky-cta {
             position: fixed;
-            bottom: 20px;
-            left: 50%;
-            transform: translateX(-50%);
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(231, 76, 60, 0.95);
+            padding: 15px;
+            text-align: center;
             z-index: 1000;
-            display: none;
+            transform: translateY(100%);
+            transition: transform 0.3s ease;
+            backdrop-filter: blur(10px);
         }
         
         .sticky-cta.show {
-            display: block;
-            animation: fadeInUp 0.5s ease-out;
+            transform: translateY(0);
         }
         
-        @media (max-width: 768px) {
-            .sticky-cta {
-                left: 20px;
-                right: 20px;
-                transform: none;
-            }
-            
-            .sticky-cta .cta-button {
-                width: 100%;
-                padding: 15px;
-            }
+        .sticky-cta .cta-button {
+            margin: 0;
+            padding: 15px 30px;
+            font-size: 1rem;
         }
     </style>
 </head>
 <body>
-    <!-- Hero Section -->
+    <!-- Header Hero -->
     <section class="hero">
-        <div class="container">
-            <div class="hero-content fade-in">
-                <div class="hero-badge">SAIA DO BÁSICO AGORA</div>
-                <h1>Domine <span class="highlight">N8N e Automação</span> em 30 Dias</h1>
-                <p class="subtitle">(Com +2000 Workflows Prontos)</p>
-                <p class="description">O pacote completo que está fazendo profissionais saírem do básico e virarem experts em automação</p>
-                <a href="https://pay.kiwify.com.br/jPYeiG9" class="cta-button">
-            🚀 QUERO DOMINAR AGORA
-        </a> </div>
-    </section>
-
-    <!-- Problems Section -->
-    <section class="problems">
-        <div class="container">
-            <h2>Se você está cansado de:</h2>
-            
-            <div class="problem-item fade-in">
-                <div class="problem-icon">❌</div>
-                <div class="problem-text">Ficar limitado fazendo automações básicas</div>
-            </div>
-            
-            <div class="problem-item fade-in">
-                <div class="problem-icon">❌</div>
-                <div class="problem-text">Perder tempo criando workflows do zero</div>
-            </div>
-            
-            <div class="problem-item fade-in">
-                <div class="problem-icon">❌</div>
-                <div class="problem-text">Não saber como conectar sistemas complexos</div>
-            </div>
-            
-            <div class="problem-item fade-in">
-                <div class="problem-icon">❌</div>
-                <div class="problem-text">Ver outros profissionais saindo na frente</div>
-            </div>
-            
-            <div class="problem-item fade-in">
-                <div class="problem-icon">❌</div>
-                <div class="problem-text">Não ter acesso aos melhores templates</div>
-            </div>
+        <div class="hero-content">
+            <h1>Transforme Seu Negócio com Automação Avançada: O Pacote Completo para Microempreendedores e Iniciantes!</h1>
+            <p class="subtitle">Automatize processos complexos de forma simples e sem complicação. Ideal para quem está começando e quer acelerar seus resultados.</p>
+            <a href="#oferta" class="cta-button">Comece Sua Automação Agora</a>
         </div>
     </section>
 
-    <!-- Transition -->
-    <section class="transition">
+    <!-- What's Included -->
+    <section class="whats-included">
         <div class="container">
-            <h2>Então esse pacote vai transformar sua carreira...</h2>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section class="about">
-        <div class="container">
-            <h2>Olá, sou Carol Moliterno</h2>
+            <h2>O que está incluído no nosso Pacote Completo de Automação?</h2>
+            <p class="subtitle">Desde automações simples até integrações mais avançadas - tudo o que você precisa para transformar o seu negócio.</p>
             
-            <div class="about-content">
-                <p>Meu objetivo é ajudar você a sair da inércia e começar a lucrar com automação.</p>
-                
-                <div class="highlight-box">
-                    Compilei +2000 workflows N8N e +3500 prompts de IA dos melhores profissionais do mundo
+            <div class="benefits-grid">
+                <div class="benefit-item fade-in">
+                    <h3>🤖 Automação de Tarefas Repetitivas</h3>
+                    <p>Elimine o trabalho manual com processos totalmente automatizados. Economize horas do seu dia focando no que realmente importa para o crescimento do seu negócio.</p>
                 </div>
                 
-                <p>Hoje, esses recursos estão ajudando centenas de pessoas a saírem do básico e se tornarem experts em automação, gerando resultados reais e lucros consistentes.</p>
+                <div class="benefit-item fade-in">
+                    <h3>⚙️ Configurações Simplificadas</h3>
+                    <p>Perfeito para quem está começando e não tem experiência em programação. Tudo foi pensado para ser simples e intuitivo, mesmo para iniciantes.</p>
+                </div>
+                
+                <div class="benefit-item fade-in">
+                    <h3>🎯 Suporte Completo</h3>
+                    <p>Acesso a uma consultoria especializada para garantir que suas automações funcionem sem problemas. Você nunca estará sozinho nessa jornada.</p>
+                </div>
+                
+                <div class="benefit-item fade-in">
+                    <h3>🔧 Pacote de Ferramentas Avançadas</h3>
+                    <p>Inclui integrações com plataformas como N8N e outras ferramentas essenciais para automação profissional do seu negócio.</p>
+                </div>
+                
+                <div class="benefit-item fade-in">
+                    <h3>📋 Exemplos Prontos</h3>
+                    <p>Já começamos com automações prontas para que você não precise partir do zero. Templates testados e funcionais para implementação imediata.</p>
+                </div>
+                
+                <div class="benefit-item fade-in">
+                    <h3>📚 Material Educativo Completo</h3>
+                    <p>Ebooks, guias e tutoriais detalhados para você dominar a automação do básico ao avançado, no seu próprio ritmo.</p>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Benefits Section -->
-    <section class="benefits">
+    <!-- Testimonials -->
+    <section class="testimonials">
         <div class="container">
-            <h2>Com esse pacote, você vai:</h2>
+            <h2>Veja o que outros microempreendedores estão dizendo</h2>
             
-            <div class="benefit-item fade-in">
-                <h3>🚀 Acelerar seu aprendizado em 10x</h3>
-                <p>Acesso a workflows testados e aprovados por profissionais experientes</p>
-            </div>
-            
-            <div class="benefit-item fade-in">
-                <h3>⚡ Economizar centenas de horas</h3>
-                <p>Templates prontos para usar em qualquer projeto de automação</p>
-            </div>
-            
-            <div class="benefit-item fade-in">
-                <h3>🎯 Dominar integrações complexas</h3>
-                <p>Aprenda como conectar qualquer sistema com exemplos práticos</p>
-            </div>
-            
-            <div class="benefit-item fade-in">
-                <h3>💰 Aumentar seu valor no mercado</h3>
-                <p>Torne-se o profissional que todos querem contratar</p>
-            </div>
-            
-            <div class="benefit-item fade-in">
-                <h3>🔥 Ficar sempre atualizado</h3>
-                <p>Acesso aos prompts de IA mais avançados do mercado</p>
+            <div class="testimonials-grid">
+                <div class="testimonial-item fade-in">
+                    <p>"Com esse pacote, consegui automatizar meu processo de vendas em poucos dias. Isso me deu mais tempo para focar no crescimento da empresa!"</p>
+                    <div class="testimonial-author">– Amanda Souza, Microempreendedora</div>
+                </div>
+                
+                <div class="testimonial-item fade-in">
+                    <p>"Eu estava totalmente perdido com automação, mas o suporte que recebi me ajudou a aplicar as ferramentas rapidamente."</p>
+                    <div class="testimonial-author">– João Pereira, Pequeno Empresário</div>
+                </div>
+                
+                <div class="testimonial-item fade-in">
+                    <p>"Nunca pensei que automação pudesse ser tão simples. Em uma semana já estava vendo resultados no meu negócio!"</p>
+                    <div class="testimonial-author">– Maria Silva, Consultora</div>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- What You Get -->
-    <section class="what-you-get">
+    <!-- Main Offer -->
+    <section class="main-offer" id="oferta">
         <div class="container">
-            <h2>O QUE VOCÊ VAI RECEBER HOJE:</h2>
+            <h2>Comece Agora e Transforme Seu Negócio com Automação</h2>
+            <p class="subtitle">Este pacote completo de automações avançadas vai ajudar você a economizar tempo e maximizar resultados de forma simples e eficaz.</p>
             
-            <div class="package-item">
-                <div class="item-name">📦 +2000 Workflows N8N Profissionais</div>
-                <div class="item-value">R$ 2.997</div>
-            </div>
-            
-            <div class="package-item">
-                <div class="item-name">🧠 +3500 Prompts de IA Especializados</div>
-                <div class="item-value">R$ 1.497</div>
-            </div>
-            
-            <div class="package-item">
-                <div class="item-name">🤖 Bônus: Templates Typebot</div>
-                <div class="item-value">R$ 497</div>
-            </div>
-            
-            <div class="package-item">
-                <div class="item-name">📚 Ebook Completo de Automação</div>
-                <div class="item-value">R$ 297</div>
-            </div>
-            
-            <div class="package-item">
-                <div class="item-name">📱 Scripts para WhatsApp</div>
-                <div class="item-value">R$ 197</div>
-            </div>
-            
-            <div class="package-item">
-                <div class="item-name">☁️ Bônus: VPS Grátis ($200)</div>
-                <div class="item-value">R$ 997</div>
-            </div>
-            
-            <div class="package-item">
-                <div class="item-name">👥 Grupo VIP Exclusivo + Suporte Direto</div>
-                <div class="item-value">R$ 497</div>
-            </div>
-            
-            <div style="text-align: center; margin-top: 30px; font-size: 1.5rem; font-weight: bold; color: #2c3e50;">
-                <strong>VALOR TOTAL: R$ 6.979</strong>
+            <div class="offer-box">
+                <div class="price-section">
+                    <h3>Pacote Completo de Automação Avançada</h3>
+                    <div class="price">R$ 69,90</div>
+                    <p class="price-description">Acesso vitalício a todo o material de automação + suporte especializado</p>
+                    <a href="https://pay.kiwify.com.br/jPYeiG9" class="cta-button">Adquira Seu Pacote Agora e Comece a Automação!</a>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Pricing -->
-    <section class="pricing">
+    <!-- Mentoria Upsell -->
+    <section class="mentoria-upsell">
         <div class="container">
-            <h2>Quanto Custa Essa Transformação?</h2>
+            <h2>Bônus Exclusivo: Mentoria de Automação com Caroline Moliterno</h2>
             
-            <div class="price-comparison">
-                <div class="price-item">
-                    <h3>Curso Presencial</h3>
-                    <div class="price">R$ 5.000+</div>
-                    <p>E ainda fica limitado</p>
-                </div>
-                
-                <div class="price-item">
-                    <h3>Mentoria Individual</h3>
-                    <div class="price">R$ 3.000+</div>
-                    <p>Por mês</p>
-                </div>
-                
-                <div class="price-item">
-                    <h3>Criar do Zero</h3>
-                    <div class="price">Meses</div>
-                    <p>De tentativa e erro</p>
-                </div>
+            <div class="mentoria-box">
+                <h3>🎯 Mentoria Individual 1:1</h3>
+                <p>Aproveite essa oportunidade para aprender diretamente com uma especialista como aplicar automações no seu negócio e alcançar resultados rápidos.</p>
+                <p>Com minha mentoria, você vai aprender como otimizar ainda mais seus processos e obter o máximo do pacote de automação.</p>
+                <div class="mentoria-price">Acesso à mentoria com um valor especial de R$ 897</div>
+                <a href="https://mentoria-ia-caroline.vercel.app/" target="_blank" class="cta-button-secondary">Adquira o Pacote e Garanta Sua Mentoria</a>
             </div>
-            
-            <p style="font-size: 1.3rem; margin-bottom: 20px;">Mas você não vai investir nem R$ 1.000...</p>
-            <p style="font-size: 1.3rem; margin-bottom: 20px;">Nem R$ 500...</p>
-            <p style="font-size: 1.3rem; margin-bottom: 40px;">Nem mesmo R$ 297...</p>
-                        <div class="price-section">
-                        <div class="old-price">De R$ 6.979</div>
-                        <div class="current-price">Por apenas R$ 69,90</div>
-                        <div class="savings">Economia de R$ 6.909!</div>
-                    </div>    
-            <a href="#comprar" class="cta-button" style="font-size: 1.3rem; padding: 25px 50px;">
-                🚀 QUERO DOMINAR POR R$ 69,90
-            </a>
-        </div>
-    </section>
-
-    <!-- Guarantee -->
-    <section class="guarantee">
-        <div class="container">
-            <div class="guarantee-box">
-                <h3>🛡️ GARANTIA BLINDADA DE 7 DIAS</h3>
-                <p>Acesse todo o material. Use os workflows. Aplique os prompts. Se você não ficar satisfeito com o conteúdo, devolvemos 100% do seu dinheiro. Sem perguntas. Sem enrolação.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Mentoria Exclusiva -->
-    <section class="mentoria" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 80px 20px; text-align: center;">
-        <div class="container">
-            <h2 style="font-size: 2.5rem; margin-bottom: 30px;">Quer Ir Além? Conheça Minha Mentoria Exclusiva</h2>
-            
-            <div style="background: rgba(255,255,255,0.1); padding: 40px; border-radius: 20px; backdrop-filter: blur(10px); margin-bottom: 40px;">
-                <h3 style="color: #ffd700; margin-bottom: 20px; font-size: 1.5rem;">🎯 Mentoria Individual 1:1 com Caroline Moliterno</h3>
-                
-                <p style="font-size: 1.2rem; margin-bottom: 30px; line-height: 1.6;">
-                    <strong>1 hora ao vivo e direto ao ponto</strong> comigo, especialista em IA e automação com +18 anos de experiência.
-                </p>
-                
-                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin: 30px 0;">
-                    <div style="background: rgba(255,255,255,0.1); padding: 20px; border-radius: 10px;">
-                        <h4 style="color: #00ff88; margin-bottom: 10px;">✅ Validar Ideias</h4>
-                        <p>Com uma especialista</p>
-                    </div>
-                    <div style="background: rgba(255,255,255,0.1); padding: 20px; border-radius: 10px;">
-                        <h4 style="color: #00ff88; margin-bottom: 10px;">🤔 Tirar Dúvidas</h4>
-                        <p>Sobre IA, automação, MVP</p>
-                    </div>
-                    <div style="background: rgba(255,255,255,0.1); padding: 20px; border-radius: 10px;">
-                        <h4 style="color: #00ff88; margin-bottom: 10px;">🚀 Acelerar Projeto</h4>
-                        <p>Evitando erros comuns</p>
-                    </div>
-                </div>
-                
-                <div style="margin: 30px 0;">
-                    <p style="text-decoration: line-through; opacity: 0.7; font-size: 1.2rem;">Valor normal: R$ 2.497</p>
-                    <p style="font-size: 2rem; font-weight: bold; color: #ffd700; margin: 10px 0;">Valor especial: R$ 897</p>
-                    <p style="color: #00ff88; font-weight: bold;">Economia de R$ 1.600!</p>
-                </div>
-                
-                <a href="https://mentoria-ia-caroline.vercel.app/" target="_blank" style="background: linear-gradient(45deg, #ffd700, #ffed4e); color: #333; padding: 20px 40px; border: none; border-radius: 50px; font-size: 1.2rem; font-weight: bold; text-decoration: none; display: inline-block; transition: all 0.3s ease; box-shadow: 0 10px 30px rgba(255, 215, 0, 0.3);">
-                    🎯 QUERO MENTORIA EXCLUSIVA
-                </a>
-            </div>
-            
-            <p style="opacity: 0.9; font-size: 1.1rem;">
-                <strong>Ideal para:</strong> Quem quer acelerar projetos, validar ideias ou transformar conhecimento em ativo digital escalável.
-            </p>
         </div>
     </section>
 
     <!-- Final CTA -->
-    <section class="final-cta" id="comprar">
+    <section class="final-cta">
         <div class="container">
-            <h2>Você Tem 2 Escolhas:</h2>
-            
-            <div class="choices">
-                <div class="choice">
-                    <h3>ESCOLHA 1:</h3>
-                    <p>Continuar no básico, perdendo oportunidades, vendo outros profissionais saírem na frente...</p>
-                </div>
-                
-                <div class="choice">
-                    <h3>ESCOLHA 2:</h3>
-                    <p>Investir R$ 69,90 e ter acesso aos melhores recursos de automação do mercado.</p>
-                </div>
-            </div>
-            
-            <p style="font-size: 1.3rem; margin: 40px 0;">A escolha é sua.</p>
-            
-            <a href="https://pay.kiwify.com.br/jPYeiG9" class="cta-button" style="font-size: 1.4rem; padding: 25px 50px;">
-                🚀 ESCOLHO DOMINAR AGORA - R$ 69,90
-            </a>
-            
-            <p style="margin-top: 30px; opacity: 0.9;">Pagamento 100% seguro. Acesso imediato.</p>
-            
-            <div style="margin-top: 50px; font-size: 1.1rem;">
-                <p><strong>P.S.:</strong> Por R$ 69,90, você tem acesso a recursos que custaram anos para coletar. Não é teoria - são templates funcionando.</p>
-                <p style="margin-top: 15px;"><strong>P.P.S.:</strong> Cada dia que você adia é uma oportunidade perdida. Outros já estão usando esses recursos para sair na frente.</p>
-            </div>
+            <h2>Não Perca Tempo - Comece Sua Automação Agora Mesmo!</h2>
+            <p class="subtitle">Com esse pacote, você tem tudo o que precisa para começar a automatizar e crescer rapidamente.</p>
+            <a href="https://pay.kiwify.com.br/jPYeiG9" class="cta-button">Clique para Garantir Sua Vaga Agora</a>
         </div>
     </section>
 
     <!-- Sticky CTA -->
     <div class="sticky-cta" id="stickyCTA">
-        <a href="https://pay.kiwify.com.br/jPYeiG9" class="cta-button final-cta">
-            ⚡ ESCOLHO DOMINAR AGORA - R$ 69,90
+        <a href="https://pay.kiwify.com.br/jPYeiG9" class="cta-button">
+            🚀 Comece Sua Automação - R$ 69,90
         </a>
     </div>
 
@@ -790,7 +592,7 @@
             });
         }, observerOptions);
 
-        document.querySelectorAll('.problem-item, .benefit-item').forEach(el => {
+        document.querySelectorAll('.benefit-item, .testimonial-item').forEach(el => {
             observer.observe(el);
         });
     </script>
